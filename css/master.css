@@ -1,10 +1,24 @@
+/* body {
+  font-size: 20px;
+} */
+
 .container {
   background-color: #FFC0CB;
 }
 
 body.debug-2 [class*="col-"] {
   height: 215px;
-  border: 1px solid black;
+  border: 1px solid #000000;
+}
+
+body.debug-2 [class*="col-"] > .container > [class*="col-"] {
+  height: 203px;
+  border: 1px solid #ffffff;
+  background-color: #F07F80;
+}
+
+body.debug-2 [class*="col-"] > .container {
+  padding: 5px;
 }
 
 [class*="col-"] {
