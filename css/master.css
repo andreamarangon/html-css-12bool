@@ -1,0 +1,17 @@
+.container {
+  background-color: #FFC0CB;
+}
+
+body.debug-2 [class*="col-"] {
+  height: 215px;
+  border: 1px solid black;
+}
+
+[class*="col-"] {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  text-align: center;
+  line-height: 215px;
+}
