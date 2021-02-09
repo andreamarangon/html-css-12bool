@@ -8,26 +8,23 @@
   background-color: #FFC0CB;
 }
 
-body.debug-2 [class*="col-"] {
+body [class*="col-"] {
   height: 215px;
   border: 1px solid #000000;
+  position: relative;
 }
 
-body.debug-2 [class*="col-"] > .container > [class*="col-"] {
+body [class*="col-"] > .container > [class*="col-"] {
   height: 203px;
   border: 1px solid #ffffff;
   background-color: #F07F80;
 }
 
-body.debug-2 [class*="col-"] > .container {
+body [class*="col-"] > .container {
   padding: 5px;
 }
 
-[class*="col-"] {
-  position: relative;
-}
-
-.contain {
+.content {
   position: absolute;
   top: 50%;
   left: 50%;
